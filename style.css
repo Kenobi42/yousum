@@ -1,0 +1,109 @@
+
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Helvetica Neue', Helvetica;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+body {
+	width:500px;
+	height:200px;
+}
+div#container {
+	padding:5px;
+	margin-left:10px;
+	width:100%;
+	height:100%;
+}
+div#title {
+	width:100%;
+	font-size:16px;
+	text-align: center;
+	font-weight: bold;
+	text-align:center;
+}
+div#url {
+	width:100%;
+	font-size:20px;
+	margin-top:8px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-weight: bold;
+	border:1px solid #fff;
+}
+div#url.offline {
+	color:#ccc;
+}
+div#url.online:hover {
+	border:1px solid #999;
+	border-radius:3px;
+	cursor: pointer;
+}
+div.btn {
+	position: absolute;
+	left:0px;
+	display:block;
+	width:180px;
+	font-size:14px;
+	text-align: center;
+	font-weight: bold;
+	margin-left:10px;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 3px;
+	border:1px solid #999;
+	background: #fff;
+}
+div.btn:hover {
+	border:1px solid #000;
+	background: #000;
+	color:#fff;	
+}
+div#reload {
+	bottom:25px;
+}
+div#about {
+	bottom:2px;
+}
+
+
+div#info {
+	display: none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:200px;
+	height:200px;
+	background: #fff;
+}
+div#info div.title {
+	font-size:14px;
+	font-weight: bold;
+	margin:5px;
+}
+div#info div.text {
+	font-size:12px;
+	margin:6px;
+	
+}
+div#close {
+	position:relative;
+	margin-top:20px;
+	bottom:2px;
+}
+
+div.clear {
+	clear:both;
+}
+
+div.flash {
+	animation: flash 0.5s 1;
+}
+@keyframes flash {
+	from {background-color: #ba00bd;}
+	to {background-color: #fff;}
+}
+

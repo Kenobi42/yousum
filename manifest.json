@@ -1,0 +1,35 @@
+{
+	"manifest_version": 3,
+	"name": "YouSum",
+	"version": "1.0.0",
+	"author": "Timothee Bailly",
+	"description": "Résume les commentaires YouTube en un clic !",
+	"permissions": [
+		"scripting",
+		"activeTab",
+		"storage",
+		"tabs",
+		"https://www.exoplanetes.fr/yousum"
+	],
+	"host_permissions": ["https://www.exoplanetes.fr/yousum", "https://www.youtube.com/*"],
+	"web_accessible_ressources": [{
+		"resources": ["yousum"],
+		"matches": ["https://www.exoplanetes.fr/*"]
+	}],
+	"action": {
+		"default_title": "YouSum",
+		"default_icon": "icon-yousum.png",
+		"default_popup": "index.html"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"type": "module",
+		"persistent": true
+	},
+	"icons": {
+		"16": "icon-yousum.png",
+		"48": "icon-yousum.png",
+		"128": "icon-yousum.png",
+		"512": "icon-yousum.png"
+	}
+}

@@ -3,7 +3,8 @@
 
 YouSum est une Extension Chrome conçu pour synthétiser les commentaires de n'importe quelle vidéo YouTube et afficher ce résumé directement dans YouTube au sommet de la section des commentaires dans un cadre unique.
 
-![screenshot](https://github.com/Kenobi42/yousum/blob/main/yousum1.jpeg)
+![screenshot1](https://github.com/Kenobi42/yousum/blob/main/YouSumButton.png)
+![screenshot2](https://github.com/Kenobi42/yousum/blob/main/YouSumSummary.png)
 
 Pour réaliser cela, l'extension est composée de trois parties principales :
 - Web scraping de la page youtube ciblée afin de récupérer les commentaires
